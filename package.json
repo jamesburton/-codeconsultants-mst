@@ -1,10 +1,10 @@
 {
-  "name": "@codeconsultants/mst",
+  "name": "@codeconsultants-public/mst",
   "version": "1.0.0",
-  "description": "The package provides helpers for use with mobx-state-tree, such as ISODate type for easy integration of ISO 8601 date strings with MST",
+  "description": "This package providers helpers for use with mobx-state-tree, such as ISODate type for easy integration of ISO 8601 date strings with MST",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,22 @@
   "keywords": [
     "mobx-state-tree",
     "ISODate",
-    "ISO8601"
+    "ISO8601",
+    "mst"
   ],
   "author": "James Burton (Code-Consultants)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jamesburton/-codeconsultants-mst/issues"
   },
-  "homepage": "https://github.com/jamesburton/-codeconsultants-mst#readme"
+  "homepage": "https://github.com/jamesburton/-codeconsultants-mst#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0",
+    "mobx": "^5.15.4"
+  },
+  "dependencies": {
+    "mobx-state-tree": "^3.16.0"
+  }
 }
