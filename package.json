@@ -1,6 +1,6 @@
 {
   "name": "@codeconsultants-public/mst",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package providers helpers for use with mobx-state-tree, such as ISODate type for easy integration of ISO 8601 date strings with MST",
   "main": "index.js",
   "scripts": {
