@@ -1,0 +1,24 @@
+{
+  "name": "@codeconsultants/mst",
+  "version": "1.0.0",
+  "description": "The package provides helpers for use with mobx-state-tree, such as ISODate type for easy integration of ISO 8601 date strings with MST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesburton/-codeconsultants-mst.git"
+  },
+  "keywords": [
+    "mobx-state-tree",
+    "ISODate",
+    "ISO8601"
+  ],
+  "author": "James Burton (Code-Consultants)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesburton/-codeconsultants-mst/issues"
+  },
+  "homepage": "https://github.com/jamesburton/-codeconsultants-mst#readme"
+}
