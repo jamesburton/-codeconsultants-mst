@@ -2,6 +2,8 @@
 
 This is the repository for the npm package @codeconsultants-public/mst.  This library is intended to gather useful helpers, custom types, etc. for use with mobx-state-tree.
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 ## Demo Site
 
 The demo site/sandbox is available at [https://codesandbox.io/s/codeconsultants-publicmst-x13kq](https://codesandbox.io/s/codeconsultants-publicmst-x13kq).

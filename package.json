@@ -26,10 +26,16 @@
   "devDependencies": {
     "@babel/preset-env": "^7.10.4",
     "babel-jest": "^26.1.0",
+    "cz-conventional-changelog": "3.2.0",
     "jest": "^26.1.0",
     "mobx": "^5.15.4"
   },
   "dependencies": {
     "mobx-state-tree": "^3.16.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
